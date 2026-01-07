@@ -1,4 +1,3 @@
-```md
 # CipherShield | Elite Cybersecurity Services
 
 > *Secure Your Digital Future*
@@ -37,14 +36,12 @@ CipherShield is a modern, high-performance landing page designed for a cybersecu
 
 ## 📂 Project Structure
 
-```
 
 ├── index.html      # Main page structure
 ├── style.css       # Styling and animations
 ├── script.js       # JavaScript logic and effects
 └── README.md       # Project documentation
 
-````
 
 ## ⚙️ Setup & Customisation
 
@@ -55,11 +52,11 @@ CipherShield is a modern, high-performance landing page designed for a cybersecu
 
 The contact form uses **FormSubmit.co** to send messages via email.
 
-1. Open `script.js`.
-2. Locate the `recipientEmail` variable (around line 114):
-   ```javascript
+1. Open 'script.js'.
+2. Locate the `recipientEmail' variable (around line 114):
+      javascript
    const recipientEmail = "your_email@example.com";
-````
+
 
 3. Replace it with your own email address.
 4. On first submission, FormSubmit.co will send a confirmation email to activate the endpoint.
