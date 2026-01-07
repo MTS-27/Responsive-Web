@@ -1,54 +1,76 @@
+```md
 # CipherShield | Elite Cybersecurity Services
 
-> "Secure Your Digital Future"
+> *Secure Your Digital Future*
 
-CipherShield is a modern, high-performance landing page designed for a cybersecurity service provider. It features a hacker-themed aesthetic with matrix rain animations, glitch text effects, and interactive terminal elements to captivate the audience.
+CipherShield is a modern, high-performance landing page designed for a cybersecurity service provider. It features a hacker-themed aesthetic with Matrix rain animations, glitch text effects, and interactive terminal elements to engage and captivate users.
+
+## 🌐 Live Demo
+
+🔗 https://mts-27.github.io/Responsive-Web/
 
 ## 🚀 Features
 
-- **Matrix Rain Background**: A dynamic HTML5 Canvas animation simulating the iconic digital rain.
-- **Glitch Text Effects**: CSS-only glitch animations for headlines to create a cyber-punk vibe.
-- **Terminal "Whoami" Section**: An interactive typing effect that introduces the developer/service.
-- **Responsive Navigation**: A glassmorphism-style navbar that adapts to mobile devices with a toggle menu.
-- **Contact Form**: Integrated with [FormSubmit.co](https://formsubmit.co/) for easy email handling without a backend server.
-- **Modern Aesthetics**: Neon color palette (Green/Black), custom fonts (JetBrains Mono & Outfit), and hover effects.
+- **Matrix Rain Background**  
+  Dynamic HTML5 Canvas animation inspired by the iconic digital rain effect.
+
+- **Glitch Text Effects**  
+  CSS-only glitch animations applied to headings for a cyber-punk aesthetic.
+
+- **Terminal “whoami” Section**  
+  Interactive typing animation that introduces the service or developer in a terminal-style interface.
+
+- **Responsive Navigation**  
+  Glassmorphism-styled navigation bar with mobile toggle support.
+
+- **Contact Form Integration**  
+  Uses [FormSubmit.co](https://formsubmit.co/) to handle emails without requiring a backend server.
+
+- **Modern Cyber Aesthetic**  
+  Neon green and black colour palette, JetBrains Mono and Outfit fonts, and smooth hover effects.
 
 ## 🛠️ Technologies Used
 
-- **HTML5**: Semantic structure.
-- **CSS3**: Variables, Flexbox/Grid, Keyframe Animations.
-- **JavaScript (Vanilla)**: DOM manipulation, Canvas API, Intersection Observer.
+- **HTML5** – Semantic and accessible structure  
+- **CSS3** – Custom properties, Flexbox/Grid layouts, and keyframe animations  
+- **JavaScript (Vanilla)** – DOM manipulation, Canvas API, and Intersection Observer
 
 ## 📂 Project Structure
 
 ```
-├── index.html      # Main structure
-├── style.css       # Core styles and animations
-├── script.js       # Logic for animations and form handling
+
+├── index.html      # Main page structure
+├── style.css       # Styling and animations
+├── script.js       # JavaScript logic and effects
 └── README.md       # Project documentation
-```
 
-## ⚙️ Setup & Customization
+````
 
-1.  **Clone or Download** the repository.
-2.  **Open `index.html`** in any modern web browser to view the site.
+## ⚙️ Setup & Customisation
 
-### Customizing the Contact Form
+1. **Clone or download** the repository.
+2. **Open `index.html`** in any modern web browser.
 
-The contact form is set up to use **FormSubmit.co**. To receive emails:
+### Customising the Contact Form
 
-1.  Open `script.js`.
-2.  Locate the `recipientEmail` variable (around line 114):
-    ```javascript
-    const recipientEmail = "your_email@example.com";
-    ```
-3.  Replace `tahasethi@yahoo.com` with your actual email address.
-4.  The first time you submit a form, you will receive an email from FormSubmit.co requiring you to activate the endpoint.
+The contact form uses **FormSubmit.co** to send messages via email.
+
+1. Open `script.js`.
+2. Locate the `recipientEmail` variable (around line 114):
+   ```javascript
+   const recipientEmail = "your_email@example.com";
+````
+
+3. Replace it with your own email address.
+4. On first submission, FormSubmit.co will send a confirmation email to activate the endpoint.
 
 ## 📝 License
 
-This project is open-source and available for personal or commercial use.
+This project is open-source and available for both personal and commercial use.
 
 ---
 
 *System Status: ALL SYSTEMS OPERATIONAL*
+
+```
+```
